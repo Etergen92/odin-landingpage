@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Roboto', sans-serif;
+    background-color: #1F2937;
+
+}
+
+/* Navbar */
+
+.navbar__logo-text{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.navbar__link-text, .welcome__text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+/* Main */
+
+.welcome__title{
+
+    font-size: 48px;
+    color: #F9FAF8;
+
+}
+
+
+.group-cards{
+
+    background-color: white;
+
+}
+
+.cita{
+
+    background-color: #E5E7EB;
+
+
+}
+
+.sign-up{
+
+    background-color: white;
+
+}
