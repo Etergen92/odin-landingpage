@@ -13,12 +13,27 @@ body{
 
 /* Navbar */
 
+.navbar{
+    display: flex;
+    justify-content: space-between;
+
+}
+
 .navbar__logo-text{
     font-size: 24px;
     color: #F9FAF8;
 }
 
-.navbar__link-text, .welcome__text{
+.navbar__link-text{
+    display: flex;
+    list-style: none;
+}
+
+.navbar__link-text > li{
+    margin: 10px;
+}
+
+.navbar__link-text, .welcome__info--text{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -26,13 +41,35 @@ body{
 
 /* Main */
 
-.welcome__title{
-
-    font-size: 48px;
-    color: #F9FAF8;
-
+.welcome{
+    display: flex;
+    justify-content: space-around;
 }
 
+.welcome__info{
+    width: 25%;
+}
+
+.welcome__info--title{
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+
+.welcome__img{
+    width: 35%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.welcome__info--btn{
+    padding: 5px;
+    width: 95px;
+    border-style: none;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
 
 .group-cards{
 
@@ -40,15 +77,38 @@ body{
 
 }
 
+.group-cards__title{
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    color: #1F2937;
+}
+
+.cardsFlex{
+    display: flex;
+    justify-content: center;
+}
+
+.cardImg{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
 .cita{
-
     background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    padding: 100px;
+    font-style: italic;
+}
 
-
+.cita__author{
+    text-align: end;
+    font-style: normal;
 }
 
 .sign-up{
-
     background-color: white;
-
 }
